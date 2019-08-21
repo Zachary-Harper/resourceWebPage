@@ -1,0 +1,58 @@
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: burlywood;
+    padding-top: 15px;
+    text-align: center;
+    /* This code makes a boder appear around the whole table */
+    border-style: solid;
+    /* This makes the border green-ish*/
+    border-color: chartreuse;
+    /* This makes the border have a width of 2 pixels*/
+    border-width: 2px;
+    border-spacing: 20px;
+    /*Makes the table take up whole screen*/
+    width: 100%;
+    /* Makes font size 20 for the table*/
+    font-size: 20px;
+}
+
+th {
+    /*This is what affects the table headers
+    This section makes the font-family Gill Sans and changes the color to Blanched Almond
+    changes font to 25*/
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+td {/* Affects the table data/cells*/
+    /* Creates a border,  makes the border width 2 pixels, makes border Aquamarine, makes solid border and pads cells by 15 pixels*/
+    border-width: 2px;
+    border-color: aquamarine;
+    border-style: solid;
+    padding: 15px;
+}
+
+body {/* Makes the body's background DarkSlateBlue, makes font-family Segoe UI and aligns text  */
+    background-color: darkslateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+a {/* Makes links the color BurlyWood and makes font-family Gill Sans */
+    color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 { /* Makes the header 1 color cornsilk and aligns text in the center */
+    color: cornsilk;
+    text-align: center
+}
+
+img {/* Deals with image values */
+    /*This makes the image have rounded corners*/
+    border-radius: 100px;
+    width: 200px;
+    height: 150px;
+}
+
